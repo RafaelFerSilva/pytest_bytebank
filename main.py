@@ -1,5 +1,8 @@
 from codigo.bytebank import Funcionario
 
-lucas = Funcionario('Lucas Carvalho', '13/03/2000', 1000)
+def teste_idade():
+    funcionario_teste = Funcionario('Rafael', '12/04/1989', 15000)
+    print(f'Rafael = {funcionario_teste.idade()}')
 
-print(lucas.idade())
+
+teste_idade()
